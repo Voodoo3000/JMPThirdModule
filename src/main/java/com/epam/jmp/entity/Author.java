@@ -1,6 +1,4 @@
-package com.epam.jmp.author;
-
-import com.epam.jmp.book.Book;
+package com.epam.jmp.entity;
 
 import java.util.ArrayList;
 import java.util.List;

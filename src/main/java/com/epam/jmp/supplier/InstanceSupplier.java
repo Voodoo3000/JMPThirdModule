@@ -1,7 +1,7 @@
 package com.epam.jmp.supplier;
 
-import com.epam.jmp.author.Author;
-import com.epam.jmp.book.Book;
+import com.epam.jmp.entity.Author;
+import com.epam.jmp.entity.Book;
 import com.epam.jmp.entity.Person;
 
 import java.util.function.Supplier;

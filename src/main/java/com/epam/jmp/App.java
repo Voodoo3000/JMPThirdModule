@@ -1,7 +1,8 @@
 package com.epam.jmp;
 
-import com.epam.jmp.author.Author;
-import com.epam.jmp.book.Book;
+import com.epam.jmp.collector.CustomCollector;
+import com.epam.jmp.entity.Author;
+import com.epam.jmp.entity.Book;
 import com.epam.jmp.supplier.InstanceSupplier;
 import com.epam.jmp.list.PersonGroup;
 import com.epam.jmp.predicater.Predicator;
@@ -133,5 +134,7 @@ public class App {
         Arrays.stream(authors).forEach(author -> {
             LOGGER.info(author.getName());
         });
+
+        LOGGER.info("\n" + personGroup.getGroupOfPerson().stream().collect(new CustomCollector()));
     }
 }

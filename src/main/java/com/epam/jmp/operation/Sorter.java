@@ -8,9 +8,8 @@ import java.util.Collections;
 import java.util.List;
 
 public class Sorter {
-
-    private Printer printer = new Printer();
     private static final Logger LOGGER = Logger.getLogger(Sorter.class);
+    private Printer printer = new Printer();
 
     /*
     * Sorts list of person by name and then prints sorted list
